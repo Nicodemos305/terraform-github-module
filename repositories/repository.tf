@@ -5,8 +5,5 @@ resource "github_repository" "this" {
 
   visibility = var.visibility
 
-  template {
-    owner      = var.owner
-    repository = var.repository
-  }
+
 }
